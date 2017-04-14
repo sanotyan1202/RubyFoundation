@@ -171,11 +171,11 @@ end
 
 # each
 languages = %w(Ruby Perl Java C#)
- languages.each { |language|
+languages.each { |language|
   p language
   next unless language == 'Java'
   p 'found Java'
   redo
-
+}
   # Ruby Perl Java found Java Found Java...繰り返し
 ```
