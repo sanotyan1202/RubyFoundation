@@ -31,13 +31,13 @@ p NilClass.ancestors   #[NilClass, Object, Kernel, BasicObject]
 ## 1-3 いろいろなRuby実装
 Rubyには複数の実装が存在します。本家のRubyは区別のためMRI（Matz Ruby Inplements)と呼ばれています。  
 ###### JRuby
-Javaで実装されたRubyでJavaのライブラリが使用可能。
+Javaで実装されたRubyでJavaのライブラリが使用可能。  
 http://jruby.org/
 
 ###### MacRuby
-Mac上のCocoaフレームワークを利用できる。
+Mac上のCocoaフレームワークを利用できる。  
 http://www.macruby.org/
 
 ###### mruby
-軽量版Ruby。
+軽量版Ruby。  
 https://github.com/mruby/mruby
